@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sat Nov 27 02:40:49 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : RTC
+Top-level Entity Name : DE0_Nano_Soc_7_segment_extension
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 2129
+Total pins : 42
+Total virtual pins : 0
+Total block memory bits : 1,112,320
+Total DSP Blocks : 3
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

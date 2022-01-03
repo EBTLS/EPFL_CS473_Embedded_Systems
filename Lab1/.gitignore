@@ -1,0 +1,27 @@
+
+# ignore .metadata folder
+/.metadata/
+
+# ignore dvt foler
+dvt/
+
+# ignore .jxbrowser-data folder
+/.jxbrowser-data/
+
+# ignore RemoteSystemsTempFiles folder
+/RemoteSystemsTempFiles/
+
+# do not ignore main.c
+/Lab_1/*
+!/Lab_1/main.c
+ 
+
+# #忽略根目录下的所有文件
+# /*
+# !/Lab_1/main.c
+ 
+# # #忽略子目录下的所有文件
+# # /*
+
+# #指定不忽略的文件
+# !/Lab_1

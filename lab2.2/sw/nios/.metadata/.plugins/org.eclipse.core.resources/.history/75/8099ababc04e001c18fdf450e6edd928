@@ -1,0 +1,60 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <inttypes.h>
+#include "system.h"
+#include <stdio.h>
+#include "rtc.h"
+
+int main()
+{
+  printf("Hello from Nios II!\n");
+
+  //IOWR_RTC_COUNT(REALTIMECLOCK_0_BASE, 0x00);
+  //IOWR_RTC_SET(REALTIMECLOCK_0_BASE, 0x01);
+  IOWR_RTC_MODE(REALTIMECLOCK_0_BASE, 0x02);
+
+  IOWR_RTC_SEC(REALTIMECLOCK_0_BASE, 0x21);
+  IOWR_RTC_MIN(REALTIMECLOCK_0_BASE, 0x0b);
+  IOWR_RTC_HOUR(REALTIMECLOCK_0_BASE, 0x02);
+  printf("Set the clock value successfully!\n");
+
+
+  //IOWR_RTC_COUNT(REALTIMECLOCK_0_BASE, 0x01);
+  //IOWR_RTC_SET(REALTIMECLOCK_0_BASE, 0x00);
+  IOWR_RTC_MODE(REALTIMECLOCK_0_BASE, 0x01);
+  printf("Start to count!\n");
+
+
+  return 0;
+  //uint8_t reg_sec = IORD_RTC_SEC(REALTIMECLOCK_0_BASE);
+  //if(reg_sec == 0x29)
+  //{
+//	  IOWR_RTC_COUNT(REALTIMECLOCK_0_BASE, 0x00);
+//	  while(1);
+
+ // }
+
+  //int i;
+  //for(i = 0; i < 20; i++)
+  //{
+	// ;
+  //}
+
+  //IOWR_RTC_COUNT(REALTIMECLOCK_0_BASE, 0x00);
+
+}

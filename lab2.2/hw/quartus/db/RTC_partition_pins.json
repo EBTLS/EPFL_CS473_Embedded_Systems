@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SelSeg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SelSeg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SelSeg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SelSeg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SelSeg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SelSeg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SelSeg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset_Led",
+					"strict" : false
+				},
+				{
+					"name" : "nSelDig[0]",
+					"strict" : false
+				},
+				{
+					"name" : "nSelDig[1]",
+					"strict" : false
+				},
+				{
+					"name" : "nSelDig[2]",
+					"strict" : false
+				},
+				{
+					"name" : "nSelDig[3]",
+					"strict" : false
+				},
+				{
+					"name" : "nSelDig[4]",
+					"strict" : false
+				},
+				{
+					"name" : "nSelDig[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FPGA_CLK1_50",
+					"strict" : false
+				},
+				{
+					"name" : "KEY_N[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

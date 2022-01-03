@@ -1,0 +1,26 @@
+
+
+#ignore hw/modelsim
+/hw/modelsim/
+
+#ignore hw/quartus
+/hw/quartus/
+
+#ignore hw/hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd
+/hw/hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd
+/hw/hdl/DE0_Nano_SoC_TRDB_D5M_LT24_top_level.vhd.bak
+/hw/hdl/DE0_Nano_SoC_TRDB_D5M_VGA_top_level.vhd
+
+
+
+# ignore sw
+/sw/
+
+# do not ignore sw/nios/application/helloworld.c
+!/sw/nios/
+/sw/nios/
+!/sw/nios/application/
+/sw/nios/application/*
+!/sw/nios/application/hello_world.c
+
+!*.c

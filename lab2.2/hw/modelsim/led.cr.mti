@@ -1,0 +1,82 @@
+D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/bin_to_bcd.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/bin_to_bcd.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bin_to_bcd
+-- Compiling architecture behavioral of bin_to_bcd
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_clk_divider.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_clk_divider.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_clk_divider
+-- Compiling architecture tb of tb_clk_divider
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_cnt
+-- Compiling architecture behavioral of tb_cnt
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_cnt_ctrl.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_cnt_ctrl.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_cnt_ctrl
+-- Compiling architecture tb of tb_cnt_ctrl
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/display_control.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/display_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity display_control
+-- Compiling architecture behavioral of display_control
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/clk_divider.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/clk_divider.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clk_divider
+-- Compiling architecture behavioral of clk_divider
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/decode_seg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/decode_seg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decode_seg
+-- Compiling architecture behavioral of decode_seg
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_display.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_display.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_display
+-- Compiling architecture bv of tb_display
+
+} {} {}} D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_rtc.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/EPFL/cs473/lab/lab2/lab2.2/hw/hdl/LED/testbench/tb_rtc.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_rtc
+-- Compiling architecture tb of tb_rtc
+
+} {} {}}

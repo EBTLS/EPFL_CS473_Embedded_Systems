@@ -1,0 +1,9 @@
+02:34:40 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+[rtc build complete]
+
+02:34:41 Build Finished (took 656ms)
+

@@ -1,0 +1,63 @@
+02:29:11 **** Incremental Build of configuration Nios II for project rtc_bsp ****
+make all 
+[BSP build complete]
+02:29:20 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+[rtc build complete]
+02:29:25 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+[rtc build complete]
+02:31:37 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -ID:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//HAL/inc -ID:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/ -ID:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+Info: Linking rtc.elf
+nios2-elf-g++  -T'D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//linker.x' -msys-crt0='D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LD:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/   -Wl,-Map=rtc.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o rtc.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert rtc.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --quartus_project_dir "d:/EPFL/cs473/lab/lab2/lab2.2/hw/quartus" --jdi D:/EPFL/cs473/lab/lab2/lab2.2/hw/quartus//output_files/RTC.jdi --sopcinfo D:/EPFL/cs473/lab/lab2/lab2.2/hw/quartus/system.sopcinfo
+Info: (rtc.elf) 28 KBytes program size (code + initialized data).
+Info:           92 KBytes free for stack + heap.
+Info: Creating rtc.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc.elf >rtc.objdump
+[rtc build complete]
+02:31:43 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+[rtc build complete]
+02:34:29 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+[rtc build complete]
+02:34:36 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -ID:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//HAL/inc -ID:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/ -ID:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+Info: Linking rtc.elf
+nios2-elf-g++  -T'D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//linker.x' -msys-crt0='D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -LD:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/   -Wl,-Map=rtc.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o rtc.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert rtc.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --quartus_project_dir "d:/EPFL/cs473/lab/lab2/lab2.2/hw/quartus" --jdi D:/EPFL/cs473/lab/lab2/lab2.2/hw/quartus//output_files/RTC.jdi --sopcinfo D:/EPFL/cs473/lab/lab2/lab2.2/hw/quartus/system.sopcinfo
+Info: (rtc.elf) 29 KBytes program size (code + initialized data).
+Info:           92 KBytes free for stack + heap.
+Info: Creating rtc.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source rtc.elf >rtc.objdump
+[rtc build complete]
+02:34:40 **** Incremental Build of configuration Nios II for project rtc ****
+make all 
+Info: Building D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+E:/Quartus/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C D:/EPFL/cs473/lab/lab2/lab2.2/sw/nios/rtc_bsp/
+[BSP build complete]
+[rtc build complete]
